@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Prompt:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Lobster&family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+
+}
+#navbar-menu{
+   position: sticky;
+   top: 0;
+   /* left: 0; */
+   z-index: 100;
+   background-color: rgba(255, 255, 255,0.5);
+}
+.navbar-brand{
+ font-family: 'lobster',sans-serif;
+ font-weight: 700;
+ letter-spacing: 2px;
+}
+.navbar .sign-up{
+    color: #fff;
+    transform: skew(-25deg);
+}
+.navbar .sign-up a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar .out{
+    background-color: #fff;
+    transform: skew(-25deg);
+}
+.navbar .out a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar ul li{
+    padding: 0 10px;
+}
+.navbar ul li a{
+    border-bottom: 2px solid transparent;
+   
+}
+.navbar ul li a:hover{
+    border-bottom: 2px solid rgb(13,110,253);
+    transition: 0.5s;
+}
+/* navbar end */
+#main{
+     padding: 30px; 
+     /* background-color:rgb(247,247,247) ; */
+}
+#main1{
+    /* background-color: aqua; */
+    padding-right: 5px;
+}
+#main1 img{
+    width: 310px;
+     margin-top: 30px;
+}
+#main h1{
+    font-size: 50px;
+    font-weight: 600;
+     padding: 20px 0; 
+     letter-spacing: 3px;
+}
+
+#main p{
+    font-size: 14px;
+    padding: 15px 0;
+}
+#small{
+    width: 400px;
+    border: 2px solid rgb(13, 110, 253) ;
+    margin-left: 0px; 
+     padding:0 15px;
+    border-radius: 5px;
+    transform: skew(-25deg);
+}
+#button-addon2{
+    background-color:rgb(13, 110, 253) ;
+    transform: skew(-25deg);
+    border-radius: 5px;
+    margin-top: 5px;
+    color: #fff;
+    
+}
+/* main end */
+#high{
+    background-color: rgb(242,244,255);
+    padding: 20px;
+}
+#high h1{
+    text-align: center;
+    padding: 10px 0;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+#high i{
+    font-size: 50px;
+    color: rgb(13, 110, 253) ;
+    text-align: center;
+    padding: 30px 0 ;
+}
+#high h3{
+    text-align: center;
+    padding: 8px;
+    font-weight: 600;
+}
+#high p{
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+}
+#high .card{
+    border: none;
+}
+/* high end */
+#create{
+    padding: 20px;
+    /* background-color:rgb(247,247,247) ; */
+}
+#create img{
+    width: 380px;
+    height: 330px;
+}
+#create h1{
+    font-weight: 600;
+    letter-spacing: 3px;
+    padding: 12px;
+}
+#create p{
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 12px;
+    text-align: justify;
+}
+#create button{
+    background-color:rgb(13, 110, 253)  ;
+    color: #fff;
+    margin-left: 11px;
+}
+/* create end */
+#finding{
+    padding: 20px;
+     background-color:rgb(242,244,255) ; 
+}
+#finding h1{
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+#finding p{
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+#finding h3{
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+/* finding end */
+#jobseekers{
+    padding:20px ;
+}
+#jobseekers img{
+    width: 350px;
+    height: 320px;
+}
+#jobseekers h1{
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 12px 0;
+}
+#jobseekers p{
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+#jobseekers h3{
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 12px 0;
+}
+#jobs{
+    background-color: rgb(212, 252, 238);
+    font-size: 25px;
+    transform: skew(-25deg);
+}
+#seeker{
+    background-color:rgb(13, 110, 253)  ;
+    font-size: 25px;
+    transform: skew(-25deg);
+}
+/* jobseeker end */
+#subscribe{
+    background-color:rgb(242,244,255)  ;
+    padding: 15px;
+}
+#subscribe h1{
+    /* padding: 12px; */
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+#info{
+    width: 800px;
+    margin-left: 14%;
+    transform: skew(-25deg);
+    border: 2px solid rgb(13, 110, 253);
+    border-radius: 5px;
+     padding:8px 15px ;
+     margin-top: 10px;
+}
+/* subscribe end */
+#contact{
+    padding: 15px;
+}
+#contact h2{
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+#contact p{
+    font-size: 14px;
+}
+#contact h5{
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+#contact li{
+   
+    list-style: none;
+    text-align: center;
+}
+/* contact end */
+#footer{
+    background-color: black;
+    color: #fff;
+    padding-top: 12px;
+    text-align: center;
+}
+#footer h3{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+/* footer end */
